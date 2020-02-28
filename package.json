@@ -1,0 +1,21 @@
+{
+  "name": "docker-dev-env",
+  "version": "0.0.1",
+  "description": "Development Environment",
+  "main": "src/main.js",
+  "author": "earthtone <earthlyillusion@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "tailwindcss": "^1.2.0"
+  },
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  }
+}
